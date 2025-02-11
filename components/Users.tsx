@@ -37,7 +37,7 @@ export default function UsersList() {
         ) : error ? (
           <p className="text-center text-red-500">{error}</p>
         ) : (
-          <div className="grid grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 gap-6">
             {users.map((user) => (
               <div key={user.id} className="p-3 bg-gray-50 rounded-lg shadow">
                 <p className="text-lg font-semibold text-gray-800">{user.name}</p>
