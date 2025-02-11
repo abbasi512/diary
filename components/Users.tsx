@@ -29,7 +29,7 @@ export default function UsersList() {
   }, []);
 
   return (
-    <div className="flex w-full rounded-lg items-center justify-center py-20 bg-gray-100 p-4">
+    <div className="flex w-full rounded-lg items-center justify-center bg-gray-100 p-20">
       <div className="bg-white p-6 rounded-2xl shadow-lg w-full">
         <h2 className="text-2xl font-bold text-center text-gray-800 mb-4">User List</h2>
         {loading ? (
