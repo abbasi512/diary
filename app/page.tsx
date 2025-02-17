@@ -17,7 +17,7 @@ export default function Home() {
         data-model-id="13301"
         defer
       >
-        
+        <div id="onsense-parts"></div>
         </script>
     </div>
   );
